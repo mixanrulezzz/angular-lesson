@@ -12,6 +12,7 @@ import { LessonThreeModule } from "./lesson-three/lesson-three.module";
 import { LessonFourModule } from "./lesson-four/lesson-four.module";
 import { RoutingSampleModule } from "./routing-sample/routing-sample.module";
 import { routerErrorHandler } from "./shared/router.error-handler";
+import {HomeworkModule} from "./homework/homework.module";
 
 @NgModule({
     declarations: [
@@ -39,6 +40,7 @@ import { routerErrorHandler } from "./shared/router.error-handler";
         LessonThreeModule,
         LessonFourModule,
         RoutingSampleModule,
+        HomeworkModule
     ],
     providers: [],
     bootstrap: [AppComponent]
