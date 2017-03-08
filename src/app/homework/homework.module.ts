@@ -5,6 +5,7 @@ import {FormsModule} from "@angular/forms";
 import {RouterModule} from "@angular/router";
 
 import {HomeworkComponent} from "./homework.component";
+import {tasksListComponent} from "./tasksList/tasksList.component";
 
 @NgModule({
     imports: [
@@ -19,7 +20,8 @@ import {HomeworkComponent} from "./homework.component";
         ]),
     ],
     declarations: [
-        HomeworkComponent
+        HomeworkComponent,
+        tasksListComponent
     ],
     exports: [
         HomeworkComponent
